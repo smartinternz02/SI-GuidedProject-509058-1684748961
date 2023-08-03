@@ -1,0 +1,168 @@
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding:0%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust the size of the logo image as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+
+#home,
+#about,
+#dashboard,
+#team,
+#contact {
+    width: 100vw; /* Set the width to 100% of the viewport width (desktop screen width) */
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height (desktop screen height) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home {
+    width: 100vw; /* Set the width to 100% of the viewport width (desktop screen width) */
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height (desktop screen height) */
+    position: relative; /* Required for absolute positioning */
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover; /* Fit the image within the container while maintaining aspect ratio */
+}
+
+.content {
+    max-width: 800px; /* Adjust the maximum width of the content container as needed */
+    position: absolute;
+    top: 50%; /* Vertically center the content */
+    left: 30%; /* Horizontally center the content */
+    transform: translate(-50%, -50%);
+    background-color:transparent; /* Semi-transparent background */
+    padding: initial;
+    text-align: center;
+    z-index: 1; /* Ensure the content is above the image */
+    color: #ffffff;
+}
+
+
+/* Additional styles for better readability (optional) */
+.content h1 {
+    margin-bottom: 1rem;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+/*our team*/
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fffcfc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    max-width: 600px;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards; /* Fade-in animation for each team member */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+img {
+    width: 1000px;
+    height: auto;
+}
+
+.details {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.details h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
