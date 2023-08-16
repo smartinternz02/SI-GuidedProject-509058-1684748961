@@ -59,12 +59,12 @@ To accomplish this, we have to complete all the activities listed below,
 
 * Amount of Data Rendered to DB ‘
 
-Utilization of Data Filters
+7)Utilization of Data Filters
 
 * No of Calculation Fields
 
 * No of Visualizations/ Graphs 
 
-7)Web Integration
+8)Web Integration
 
 * Dashboard and Story embed with UI. 
