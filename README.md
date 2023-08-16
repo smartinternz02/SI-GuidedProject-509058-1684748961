@@ -67,4 +67,4 @@ Utilization of Data Filters
 
 7)Web Integration
 
-* Dashboard and Story embed with UI 
+* Dashboard and Story embed with UI. 
